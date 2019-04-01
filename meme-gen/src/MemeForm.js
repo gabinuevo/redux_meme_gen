@@ -10,7 +10,7 @@ class MemeForm extends Component {
             bottomText: "",
             imgURL: ""
         }
-        
+
         this.handleChange = this.handleChange.bind(this);
         this.handleSubmit = this.handleSubmit.bind(this);
     }
@@ -31,8 +31,6 @@ class MemeForm extends Component {
             imgURL: ""
         })
     }
-
-
 
     render() {
         return (
